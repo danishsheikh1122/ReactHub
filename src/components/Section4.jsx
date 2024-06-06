@@ -18,7 +18,7 @@ const Section4 = () => {
               srcset="https://shipfa.st/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmaker-of-the-year-2023.285fe739.png&w=256&q=75"
               src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmaker-of-the-year-2023.285fe739.png&amp;w=640&amp;q=75"
             ></img>
-            <p className="mb-4 text-white md:text-lg font-medium text-white">
+            <p className="mb-4 md:text-lg font-medium text-white">
               Hey, it's Marc 👋
             </p>
             <p className="mb-5">
