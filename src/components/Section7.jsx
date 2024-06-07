@@ -23,6 +23,28 @@ const Section7 = () => {
       logo: "https://shipfa.st/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgrabriel.5bc4a207.jpg&w=48&q=75",
       name: "Danuuu",
     },
+    {
+      type: "videoR",
+      normaltext1: "",
+      highlitedtext:
+        "I made more in 6 days than the minimum wage here in Spain.",
+      normaltext2:
+        "I wanna cry 🥲 It would have taken me months to do the website without the boilerplate.",
+      img: "https://shipfa.st/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjuanjomrr.c149586f.jpeg&w=256&q=75",
+      logo: "https://shipfa.st/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgrabriel.5bc4a207.jpg&w=48&q=75",
+      name: "Danuuu",
+    },
+    {
+      type: "videoR",
+      normaltext1: "",
+      highlitedtext:
+        "I made more in 6 days than the minimum wage here in Spain.",
+      normaltext2:
+        "I wanna cry 🥲 It would have taken me months to do the website without the boilerplate.",
+      img: "https://shipfa.st/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjuanjomrr.c149586f.jpeg&w=256&q=75",
+      logo: "https://shipfa.st/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgrabriel.5bc4a207.jpg&w=48&q=75",
+      name: "Danuuu",
+    },
 
     {
       type: "textR",
@@ -42,27 +64,6 @@ const Section7 = () => {
       logo: "https://shipfa.st/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgrabriel.5bc4a207.jpg&w=48&q=75",
       name: "Danuuu",
     },
-
-    {
-      type: "videoR",
-      normaltext1:
-        "Hey Marc! I wanted to say how grateful I am for ShipFast. It was INCREDIBLY helpful.",
-      highlitedtext: "Just hit 3k in Revenue today!",
-      normaltext2: "🤩",
-      img: "https://shipfa.st/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvladislackmrr.ab2d8ecb.jpg&w=640&q=75",
-      logo: "https://shipfa.st/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgrabriel.5bc4a207.jpg&w=48&q=75",
-      name: "Danuuu",
-    },
-    {
-      type: "videoR",
-      normaltext1:
-        "Hey Marc! I wanted to say how grateful I am for ShipFast. It was INCREDIBLY helpful.",
-      highlitedtext: "Just hit 3k in Revenue today!",
-      normaltext2: "🤩",
-      img: "https://shipfa.st/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fvladislackmrr.ab2d8ecb.jpg&w=640&q=75",
-      logo: "https://shipfa.st/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgrabriel.5bc4a207.jpg&w=48&q=75",
-      name: "Danuuu",
-    },
     {
       type: "textR",
       normaltext1:
@@ -72,7 +73,6 @@ const Section7 = () => {
       logo: "https://shipfa.st/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fgrabriel.5bc4a207.jpg&w=48&q=75",
       name: "Danuuu",
     },
-    
     {
       type: "fullvideoR",
       normaltext1: `"Everything you need to ship your SaaS ASAP"`,
@@ -84,7 +84,7 @@ const Section7 = () => {
 
   return (
     <section
-      className="bg-black text-[#CFCFCF] font-bricolage"
+      className="bg-black text-[#CFCFCF] font-bricolage px-[1rem] "
       id="testimonials"
     >
       <div className="flex flex-col text-center w-full">

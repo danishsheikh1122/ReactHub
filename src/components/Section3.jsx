@@ -220,21 +220,24 @@ const Section3 = () => {
           {/* Add more tabs here */}
         </div>
       </div>
-
       <div
         role="tablist"
-        className="tabs tabs-bordered bg-black w-full h-[22rem] px-[23rem] justify-start items-start "
+        className="tabs tabs-bordered bg-black w-full h-[45vh] md:h-[22rem] px-[5vw] md:px-[5vw] lg:px-[24vw] justify-start items-start"
       >
+        <div class="max-w-3xl mx-auto flex flex-col md:flex-row justify-center md:justify-start md:items-center gap-12">
+
+        </div>
+
         {/* Tab Content 1 */}
         <div
           role="tab"
           aria-label="Tab 1"
           className={`tab text-white ${activeTab !== 1 ? "hidden" : ""}`}
         >
-          <div className="text-[#CFCFCF]/80  leading-relaxed space-y-4 md:px-0 py-12 max-w-xl animate-opacity felx justify-start items-start">
-            <p className=" text-[#CFCFCF]  text-xl text-left ">Emails</p>
+         <div class="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity">
+            <p className=" text-[#CFCFCF]  text-lg text-left ">Emails</p>
             <ul className="space-y-1">
-              <li className="flex items-start gap-2 text-[#CFCFCFCF] text-[1rem] ">
+              <li className="flex items-start gap-2 text-[#CFCFCFCF] ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -249,7 +252,7 @@ const Section3 = () => {
                 </svg>
                 Send transactional emails
               </li>
-              <li className="flex items-start gap-2 text-[#CFCFCFCF] text-[1rem] ">
+              <li className="flex items-start gap-2 text-[#CFCFCFCF] ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -264,7 +267,7 @@ const Section3 = () => {
                 </svg>
                 DNS setup to avoid spam folder (DKIM, DMARC, SPF in subdomain)
               </li>
-              <li className="flex items-start gap-2 text-[#CFCFCFCF] text-[1rem] ">
+              <li className="flex items-start gap-2 text-[#CFCFCFCF] ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -279,7 +282,7 @@ const Section3 = () => {
                 </svg>
                 Webhook to receive & forward emails
               </li>
-              <li className="flex items-start gap-2 text-[#CFCFCFCF] text-[1rem]  text-accent font-medium">
+              <li className="flex items-start gap-2 text-[#CFCFCFCF]  text-accent font-medium">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -294,7 +297,7 @@ const Section3 = () => {
                 </svg>
                 Time saved: 3 hours
               </li>
-              <li className="flex items-start gap-2 text-[1rem]  text-accent font-medium">
+              <li className="flex items-start gap-2  text-accent font-medium">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -310,7 +313,7 @@ const Section3 = () => {
                 Headaches: 0
               </li>
             </ul>
-            <div className="pt-3 flex items-center gap-2 text-[#CFCFCFCF] text-[1rem]  text-sm font-semibold text-[#CFCFCF]/90">
+            <div className="pt-3 flex items-center gap-2  text-sm font-semibold text-[#CFCFCF]/90">
               <img
                 alt="Mailgun"
                 loading="lazy"
@@ -342,7 +345,7 @@ const Section3 = () => {
           aria-label="Tab 2"
           className={`tab text-white ${activeTab !== 2 ? "hidden" : ""}`}
         >
-          <div className="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity">
+         <div class="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity">
             <p className="font-medium text-lg text-[#CFCFCFCF] text-left">
               Payments
             </p>
@@ -464,7 +467,7 @@ const Section3 = () => {
           aria-label="Tab 3"
           className={`tab text-white ${activeTab !== 3 ? "hidden" : ""}`}
         >
-          <div className="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity">
+         <div class="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity">
             <p
               className="font-medium text-[#CFCFCF] text-left opacity-90 text-lg "
               style={{ color: "#CFCFCF" }}
@@ -615,7 +618,7 @@ const Section3 = () => {
           aria-label="Tab 4"
           className={`tab  text-white ${activeTab !== 4 ? "hidden" : ""}`}
         >
-          <div className="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity">
+         <div class="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity">
             <p
               className="font-medium text-base-content text-left text-lg"
               style={{ color: "#CFCFCF" }}
@@ -867,9 +870,7 @@ const Section3 = () => {
                 </svg>
                 SEO-optimized UI components
               </li>
-              <li
-                className="flex items-center gap-2 text-accent font-medium"
-              >
+              <li className="flex items-center gap-2 text-accent font-medium">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -893,7 +894,7 @@ const Section3 = () => {
           aria-label="Tab 6"
           className={`tab  text-white ${activeTab !== 6 ? "hidden" : ""}`}
         >
-          <div className="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity">
+         <div class="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity">
             <p
               className="font-medium text-base-content text-lg text-left"
               style={{ color: "#CFCFCF" }}
