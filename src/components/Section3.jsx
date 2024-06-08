@@ -222,19 +222,19 @@ const Section3 = () => {
       </div>
       <div
         role="tablist"
-        className="tabs tabs-bordered bg-black w-full h-[45vh] md:h-[22rem] px-[5vw] md:px-[5vw] lg:px-[24vw] justify-start items-start"
+        className="tabs tabs-bordered bg-black w-full h-[60vh] md:h-[22rem] md:px-[5vw] lg:px-[24vw] justify-start items-start"
       >
-        <div class="max-w-3xl mx-auto flex flex-col md:flex-row justify-center md:justify-start md:items-center gap-12">
+        {/* <div class="max-w-3xl mx-auto flex flex-col md:flex-row justify-center md:justify-start md:items-center gap-12">
 
-        </div>
+        </div> */}
 
         {/* Tab Content 1 */}
         <div
           role="tab"
           aria-label="Tab 1"
-          className={`tab text-white ${activeTab !== 1 ? "hidden" : ""}`}
+          className={`text-white ${activeTab !== 1 ? "hidden" : ""}`}
         >
-         <div class="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity">
+         <div class="text-base-content/80 leading-relaxed space-y-4 lg:px-12 px-[2rem] py-[1rem] md:px-0 lg:py-12 max-w-xl animate-opacity">
             <p className=" text-[#CFCFCF]  text-lg text-left ">Emails</p>
             <ul className="space-y-1">
               <li className="flex items-start gap-2 text-[#CFCFCFCF] ">
@@ -345,7 +345,7 @@ const Section3 = () => {
           aria-label="Tab 2"
           className={`tab text-white ${activeTab !== 2 ? "hidden" : ""}`}
         >
-         <div class="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity">
+         <div class="text-base-content/80 leading-relaxed space-y-4 lg:px-12 px-[2rem] py-[1rem] max-w-xl animate-opacity">
             <p className="font-medium text-lg text-[#CFCFCFCF] text-left">
               Payments
             </p>
@@ -467,7 +467,7 @@ const Section3 = () => {
           aria-label="Tab 3"
           className={`tab text-white ${activeTab !== 3 ? "hidden" : ""}`}
         >
-         <div class="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity">
+         <div class="text-base-content/80 leading-relaxed space-y-4 lg:px-12 px-[2rem] py-[1rem] max-w-xl animate-opacity">
             <p
               className="font-medium text-[#CFCFCF] text-left opacity-90 text-lg "
               style={{ color: "#CFCFCF" }}
@@ -618,7 +618,7 @@ const Section3 = () => {
           aria-label="Tab 4"
           className={`tab  text-white ${activeTab !== 4 ? "hidden" : ""}`}
         >
-         <div class="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity">
+         <div class="text-base-content/80 leading-relaxed space-y-4 lg:px-12 px-[2rem] py-[1rem] max-w-xl animate-opacity">
             <p
               className="font-medium text-base-content text-left text-lg"
               style={{ color: "#CFCFCF" }}
@@ -738,7 +738,7 @@ const Section3 = () => {
           className={`tab  text-white ${activeTab !== 5 ? "hidden" : ""}`}
         >
           <div
-            className="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity"
+            className="text-base-content/80 leading-relaxed space-y-4 lg:px-12 px-[2rem] py-[1rem] max-w-xl animate-opacity"
             style={{ color: "#CFCFCF" }}
           >
             <p
@@ -894,7 +894,7 @@ const Section3 = () => {
           aria-label="Tab 6"
           className={`tab  text-white ${activeTab !== 6 ? "hidden" : ""}`}
         >
-         <div class="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity">
+         <div class="text-base-content/80 leading-relaxed space-y-4 lg:px-12 px-[2rem] py-[1rem] max-w-xl animate-opacity">
             <p
               className="font-medium text-base-content text-lg text-left"
               style={{ color: "#CFCFCF" }}
@@ -1009,7 +1009,7 @@ const Section3 = () => {
           className={`tab  text-white ${activeTab !== 7 ? "hidden" : ""}`}
         >
           <div
-            className="text-base-content/80 leading-relaxed space-y-4 px-12 md:px-0 py-12 max-w-xl animate-opacity"
+            className="text-base-content/80 leading-relaxed space-y-4 lg:px-12 px-[2rem] py-[1rem] max-w-xl animate-opacity"
             style={{ color: "#CFCFCF", opacity: "0.8" }}
           >
             <ul className="space-y-1">

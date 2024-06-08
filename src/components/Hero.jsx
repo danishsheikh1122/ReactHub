@@ -127,8 +127,8 @@ const Hero = () => {
           </div>
           {/* ends */}
         </div>
-        <div className="relative max-md:-m-4 lg:w-full">
-          <img src={heroImg} className="w-full md:max-w-xl md:ml-[2rem] " />
+        <div className="max-md:-m-4 lg:w-full sm:flex sm:justify-center sm:items-center">
+          <img src={heroImg} className="w-full md:max-w-xl md:ml-[2rem]" />
         </div>
       </div>
     </div>
